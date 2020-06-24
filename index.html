@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="font-icon/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Test Front End</title>
+</head>
+<body>
+    <header>
+        <div class="headContain">
+            <div class="innerHead">
+                <img src="img/logo_fizzmod.svg" alt="logo" id="logo">
+                <div class="subInner">
+                    <ul class="topNav">
+                        <li> <a href="#Ayuda">Ayuda</a></li>
+                        <li> <a href="#MisPedidos">Mis Pedidos</a></li>
+                        <li>  <a href="#MiCuenta">Mi Cuenta</a></li>
+                    </ul>
+                <div class="subInner2">
+                <i class="icon-icn_search"></i><input type="search" id="search" placeholder="Buscar un producto...">
+                    <button id="carrito"><i class="icon-icn_cart"></i> MI CARRITO </button>
+                </div>
+                </div>
+            </div>
+            <div class="menu">
+                <ul id="categories">
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="body">
+        <div class="slider">
+            <button class="icon-icn_chevron_left"  id="prevBut"></button>
+                <div id="slides">
+                </div> 
+            <button class="icon-icn_chevron_right" id="nextBut"></button>
+        </div>
+        <h1 class="productos-title"><span>Productos</span></h1>
+        <div class="productos">
+            <div id="filter">
+            </div>
+            <div id="product-grid">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-contain">
+            <div class="foot-child">
+                <h1 class="foot-title">PRODUCTOS</h1>
+                <p>Compre Junto</p>
+                <p>Kit Look</p>
+                <p>Completá tu Compra</p>
+                <p>Shop the Look</p>
+                <p>Sin Stock</p>
+                
+            </div>
+            <div class="foot-child">
+                <h1 class="foot-title">MI CUENTA</h1>
+                <p>Mis Pedidos</p>
+                <p>Wishlist</p>
+                <p>Productos Frecuentes</p>
+                <p>Mis listas</p>
+                <p>Mis recetas</p>
+
+            </div>
+            <div class="foot-child">
+                <h1 class="foot-title">CONTACTANOS</h1>
+                <p>Nuestras Sucursales</p>
+                <p>Horarios y Telefonos</p>
+                
+            </div>
+            <div class="foot-childCol">
+                <i class="fa fa-facebook fa-2x"></i>
+                <i class="fa fa-twitter fa-2x"></i>
+                <i class="fa fa-youtube fa-2x"></i>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
